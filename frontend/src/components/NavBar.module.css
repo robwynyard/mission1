@@ -1,0 +1,72 @@
+.NavContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    background-color: #0073cf;
+    box-shadow: black;
+    height: 50px;
+    padding-left: 15%;
+    padding-right: 15%;
+    font-family: "Lato";
+    font-weight: 600;
+    font-size: 15px;
+    color: white;
+}
+
+
+.LeftLinks {
+    display: flex;
+    gap: 25px;
+    position: relative;
+    height: 100%;
+}
+
+.LeftLinks a {
+    display: flex;              
+    align-items: center;        
+    height: 100%;             
+    padding: 0 10px;            
+    text-decoration: none;      
+    color: white;               
+    cursor: pointer;
+}
+
+.ArrowDown {
+    padding-left: 10px;
+    font-size: 10px;
+    padding-top: 5px;
+}
+
+.RightLinks {
+    display: flex;
+    gap: 25px;
+    position: relative;
+    height: 100%;
+}
+
+.RightLinks a {
+    display: flex;              
+    align-items: center;        
+    height: 100%;             
+    padding: 0 10px;            
+    text-decoration: none;      
+    color: white;               
+    cursor: pointer;
+}
+
+.FontAwesomeIcon {
+    
+    font-size: 15px;
+    margin-right: 5px;
+    position: relative;
+}
+.LeftLinks a:hover{
+    background-color: #143f78;
+  transition: ease-in-out 300ms;
+}
+.RightLinks a:hover{
+    background-color: #143f78;
+  transition: ease-in-out 300ms;
+}

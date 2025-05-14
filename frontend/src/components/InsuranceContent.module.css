@@ -1,0 +1,72 @@
+.ContentContainer {
+  justify-self: center;
+  background-color: rgb(255, 255, 255);
+  width: 81vw;
+  height: 400px;
+  padding-top: 40px;
+  font-family: "Lato";
+}
+
+.HeaderContent{
+    padding-left: 40px;
+}
+
+.HeaderContent p {
+    padding-top: 10px;
+    font-size: 14.5px;
+}
+
+.ContentContainer h3 {
+  color: #0073cf;
+  font-size: 22px;
+  font-weight: 800;}
+
+.QuoteSection {
+    justify-items: center;
+}
+
+.QuoteSection p{
+    padding-top: 50px;
+    padding-bottom: 25px;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(71, 71, 71);
+}
+
+.QuoteSection button {
+    width: 200px;
+    background-color: #0073cf;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+
+.AutoSureLogo{
+    justify-self: end;
+    padding-right: 130px ;
+    
+}
+.AutoSureLogo img {
+    width: 200px;
+}
+
+.AutoSureLogo p{
+    padding-left: 60px;
+    font-size: 14px;
+    color: #111c24;
+}
+
+.ContentContainer {
+  position: relative;
+  padding: 2rem;
+  transition: filter 0.3s ease;
+}
+
+.Blurred {
+  filter: blur(5px);
+}
