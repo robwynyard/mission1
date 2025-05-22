@@ -8,7 +8,7 @@ const app = express();
 const port = 4000;
 
 app.use(cors({
-  origin: 'http://localhost:5173', // your Vite dev server
+  origin: 'http://localhost:5173', 
 }));
 // Multer setup for file handling
 const storage = multer.memoryStorage();
@@ -24,7 +24,7 @@ app.post('/predict', upload.single('image'), async (req, res) => {
 
   try {
     const azureResponse = await axios.post(
-      'https://australiaeast.api.cognitive.microsoft.com/customvision/v3.0/Prediction/de13eec6-d5df-4e6f-abcd-1bcd01ba488f/classify/iterations/Iteration2/image',
+      'https://australiaeast.api.cognitive.microsoft.com/customvision/v3.0/Prediction/de13eec6-d5df-4e6f-abcd-1bcd01ba488f/classify/iterations/Iteration3/image',
       req.file.buffer,
       {
         headers: {
